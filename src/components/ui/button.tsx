@@ -10,6 +10,9 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
+        hero: "bg-primary text-primary-foreground shadow-[var(--shadow-primary)] hover:bg-primary-bright hover:-translate-y-0.5",
+        glass: "border border-border-strong bg-surface-glass text-foreground backdrop-blur-xl hover:border-primary/60 hover:bg-surface-elevated hover:-translate-y-0.5",
+        icon: "border border-border bg-surface-glass text-muted-foreground backdrop-blur-xl hover:border-primary/60 hover:text-foreground hover:bg-surface-elevated",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
           "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
@@ -20,8 +23,8 @@ const buttonVariants = cva(
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",
-        lg: "h-10 rounded-md px-8",
-        icon: "h-9 w-9",
+        lg: "h-12 rounded-md px-7 text-sm",
+        icon: "h-10 w-10",
       },
     },
     defaultVariants: {
