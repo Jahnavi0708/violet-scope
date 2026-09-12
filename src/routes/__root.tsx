@@ -78,10 +78,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "SCOPE Club" },
-      { name: "description", content: "SCOPE is a student technology community where curiosity meets code." },
+      {
+        name: "description",
+        content: "SCOPE is a student technology community where curiosity meets code.",
+      },
       { name: "author", content: "SCOPE Club" },
       { property: "og:title", content: "SCOPE Club" },
-      { property: "og:description", content: "A student community for learning, building, coding, projects, and technical events." },
+      {
+        property: "og:description",
+        content:
+          "A student community for learning, building, coding, projects, and technical events.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

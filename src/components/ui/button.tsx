@@ -11,7 +11,8 @@ const buttonVariants = cva(
       variant: {
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         hero: "bg-primary text-primary-foreground shadow-[var(--shadow-primary)] hover:bg-primary-bright hover:-translate-y-0.5",
-        glass: "border border-border-strong bg-surface-glass text-foreground backdrop-blur-xl hover:border-primary/60 hover:bg-surface-elevated hover:-translate-y-0.5",
+        glass:
+          "border border-border-strong bg-surface-glass text-foreground backdrop-blur-xl hover:border-primary/60 hover:bg-surface-elevated hover:-translate-y-0.5",
         icon: "border border-border bg-surface-glass text-muted-foreground backdrop-blur-xl hover:border-primary/60 hover:text-foreground hover:bg-surface-elevated",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
